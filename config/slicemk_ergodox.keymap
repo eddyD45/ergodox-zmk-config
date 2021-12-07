@@ -10,13 +10,13 @@
                 layer_0 {
                         bindings = <
     &bootloader
-    &kp ESC      &kp NUM_1  &kp NUM_2   &kp NUM_3  &kp NUM_4  &kp NUM_5  &kp GRAV  &kp MINUS  &kp NUM_6  &kp NUM_7  &kp NUM_8  &kp NUM_9  &kp NUM_0  &kp EQUAL
-    &kp TAB      &kp Q      &kp W       &kp E      &kp R      &kp T      &none &none  &kp Y      &kp U      &kp I      &kp O      &kp P      &kp BKSP
-    &kp LCTRL    &kp A      &kp S       &kp D      &kp F      &kp G                           &kp H      &kp J      &kp K      &kp L      &kp SCLN   &kp SQT
-    &kp LSHFT    &kp Z      &kp X       &kp C      &kp V      &kp B      &none &none  &kp N      &kp M      &kp CMMA   &kp DOT    &kp FSLH   &none
-    &kp LALT     &none   &kp K_MUTE  &kp BLSH   &kp SQT                                               &kp LBKT   &kp RBKT   &kp C_PP   &kp C_PREV &kp C_NEXT
-                                                           &kp UARW  &kp DARW   &none   &none
-                                                                     &kp LARW   &none
+    &kp ESC      &kp NUM_1  &kp NUM_2   &kp NUM_3  &kp NUM_4  &kp NUM_5 &kp GRAV  &kp MINUS  &kp NUM_6  &kp NUM_7  &kp NUM_8  &kp NUM_9  &kp NUM_0  &kp EQUAL
+    &kp TAB      &kp Q      &kp W       &kp E      &kp R      &kp T     &kp LC(A) &kp LC(C)  &kp Y      &kp U      &kp I      &kp O      &kp P      &kp BKSP
+    &kp LGUI     &kp A      &kp S       &kp D      &kp F      &kp G                          &kp H      &kp J      &kp K      &kp L      &kp SCLN   &kp SQT
+    &kp LSHFT    &kp Z      &kp X       &kp C      &kp V      &kp B     &kp LC(X) &kp LC(V)  &kp N      &kp M      &kp CMMA   &kp DOT    &kp FSLH   &none
+    &kp LALT     &kp LCTL   &kp K_MUTE  &kp BLSH   &kp SQT                                              &kp LBKT   &kp RBKT   &kp C_PP   &kp C_PREV &kp C_NEXT
+                                                           &kp UARW  &kp DARW   &kp LG(LARW)   &kp LG(RARW)
+                                                                     &kp LARW   &kp LG(UARW)
                                                 &kp SPC    &kp LCTL                         &kp LSFT   &kp RET
                                                                      &kp RARW   &mo 1
                         >;
